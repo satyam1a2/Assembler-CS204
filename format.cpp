@@ -13,6 +13,7 @@ string Rformat (vector <string> &instruction)
         return "Invalid instruction format";
     }
 
+    
     string opcode_temp = codes_map[instruction[0]][0];
     string func3_temp = codes_map[instruction[0]][1];
     string func7_temp = codes_map[instruction[0]][2];
