@@ -3,6 +3,7 @@ var: .word 0x12345678
 str: .asciiz "demo"
 
 
+
 .text
 lw x15, var
 addi x10, x10, 20
